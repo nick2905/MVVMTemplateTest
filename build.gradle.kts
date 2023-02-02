@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version app.web.drjackycv.buildsrc.Depends.Versions.kotlinVersion
+    kotlin("jvm") version 1.8.10
     id("org.sonarqube") version app.web.drjackycv.buildsrc.Depends.Versions.sonarqubeVersion
     detekt
     id("com.github.ben-manes.versions") version app.web.drjackycv.buildsrc.Depends.Versions.checkDependencyVersionsVersion
